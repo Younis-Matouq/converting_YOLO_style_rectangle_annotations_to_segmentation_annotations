@@ -1,0 +1,5 @@
+annotation_directory: E:\BLUE_SSD_DATA\try_signs\annots
+img_directory: E:\BLUE_SSD_DATA\try_signs\imgs
+sam_checkpoint_path: D:\Lab_work\converting_YOLO_style_rectangle_annotations_to_segmentation_annotations\segment-anything\sam_vit_h_4b8939.pth
+saving_path: E:\BLUE_SSD_DATA\try_signs\results
+smooth: False

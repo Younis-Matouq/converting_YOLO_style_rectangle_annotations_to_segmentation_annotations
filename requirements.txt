@@ -1,0 +1,6 @@
+numpy==1.23.5
+opencv-python
+tqdm==4.65.0
+pyyaml
+pathlib
+
