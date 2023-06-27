@@ -2,6 +2,10 @@
 
 This project provides a script to convert YOLO-style rectangle annotations to segmentation annotations. It uses the bounding box coordinates provided in the YOLO format and generates corresponding segmentation masks. The output of the script will be JSON files saved at the specified path.
 
+<p float="left" align="center">
+  <img src="./script_output_example/example_1_seg.png" width="550" />
+  <img src="./script_output_example/example_1_rect.png" width="550" /> 
+</p>
 ## Prerequisites
 
 Before you run the script, please ensure you meet the following prerequisites:
@@ -13,6 +17,12 @@ Before you run the script, please ensure you meet the following prerequisites:
 ## Installation
 
 Follow these steps to install and run the script:
+
+1. **Clone the Repository Locally**: Use the following command to clone the repo:
+   ```shell
+    git clone --recursive https://github.com/Younis-Matouq/converting_YOLO_style_rectangle_annotations_to_segmentation_annotations.git
+    ```
+
 1. **Navigate to the Project Directory**: Install the required Python packages using `pip`:
 
    ```shell
