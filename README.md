@@ -13,6 +13,12 @@ Before you run the script, please ensure you meet the following prerequisites:
 ## Installation
 
 Follow these steps to install and run the script:
+
+1. **Clone the repository**: Use the following command:
+    ```shell
+    git clone --recursive https://github.com/Younis-Matouq/converting_YOLO_style_rectangle_annotations_to_segmentation_annotations.git
+    ```
+
 1. **Navigate to the Project Directory**: Install the required Python packages using `pip`:
 
    ```shell
