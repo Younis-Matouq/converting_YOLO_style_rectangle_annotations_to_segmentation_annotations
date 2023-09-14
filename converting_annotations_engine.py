@@ -34,7 +34,7 @@ def run(img_directory,annotation_directory,saving_path,sam_checkpoint_path,smoot
     predictor=model_loader_predictor(sam_checkpoint=sam_checkpoint_path)
     print('The Model is loaded')
 
-    all_annotations=glob.glob(annotation_directory+'\*.json')
+    all_annotations=glob.glob(os.path.join(annotation_directory,'*.json'))
     print(f'Total number of JSON files: {len(all_annotations)}.')
 
     missing_images=[]
