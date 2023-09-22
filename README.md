@@ -67,9 +67,10 @@ smooth: False
 ## Usage 
 **To run the script use the following command.**
 
-    ```
-    python converting_annotations_engine.py --config config.yaml
-    ```
+```python
+python converting_annotations_engine.py --config config.yaml
+```
+    
 
 ## Output
 
