@@ -18,28 +18,27 @@ Before you run the script, please ensure you meet the following prerequisites:
 
 Follow these steps to install and run the script:
 
-<<<<<<< HEAD
-1. **Clone the repository**: Use the following command:
-    ```shell
-=======
 1. **Clone the Repository Locally**: Use the following command to clone the repo:
    ```shell
->>>>>>> 95905efa73aa75b5f81c534de0ca125ca7b0b3c2
     git clone --recursive https://github.com/Younis-Matouq/converting_YOLO_style_rectangle_annotations_to_segmentation_annotations.git
     ```
 
-1. **Navigate to the Project Directory**: Install the required Python packages using `pip`:
+2. **Navigate to the Project Directory**: Install the required Python packages using `pip`:
+
+    ```shell
+    cd converting_YOLO_style_rectangle_annotations_to_segmentation_annotations
+    ```
 
    ```shell
     pip install -r requirements.txt
     ```
-2. **Navigate to the Project Directory**: Use the `cd` command to navigate into the `segment-anything` directory:
+3. **Navigate to Segment Anything Directory**: Use the `cd` command to navigate into the `segment-anything` directory:
 
     ```shell
     cd segment-anything
     ```
 
-3. **Install the Requirements**: Install the required Python packages using `pip`:
+4. **Install the Requirements**: Install the required Python packages using `pip`:
 
     ```shell
     pip install -e .
@@ -68,7 +67,7 @@ smooth: False
 ## Usage 
 **To run the script use the following command.**
 
-    ```shell
+    ```
     python converting_annotations_engine.py --config config.yaml
     ```
 
